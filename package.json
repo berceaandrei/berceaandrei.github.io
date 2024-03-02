@@ -1,7 +1,7 @@
 {
   "name": "react-web-portofolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
     "@emotion/react": "^11.11.1",
