@@ -1,16 +1,17 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from "@storybook/react";
 
-import Icon from './Icon';
+import Icon from "./Icon";
 
-const meta: Meta <typeof Icon> = {
+const meta: Meta<typeof Icon> = {
   component: Icon,
+  title: "Atoms/Icon",
 };
 
 export default meta;
 type Story = StoryObj<typeof Icon>;
 
-export const Default:Story = {
-    args : {
-        iconName: "phone"
-    },
-}
+export const Default: Story = {
+  args: {
+    iconName: "phone",
+  },
+};

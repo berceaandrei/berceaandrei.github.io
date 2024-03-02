@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "MagicRetro";
+  src: url("./fonts/MagicRetro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./fonts/Cocogoose.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cocogoose-numbers";
+  src: url("./fonts/Cocogoose-numbers.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter-medium";
+  src: url("./fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdfaf3;
+}
+
+.pc-bg {
+  background-image: url("./imagess/background-darker3.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fdfaf3;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #fdfaf3;
+}
+
+.phone-bg {
+  background: #fdfaf3;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  height: 100%;
+}
+
+.page1 {
+  background-image: url("./imagess/background-darker2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #600d2a;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page1nopic {
+  background-size: cover;
+  background-color: #600d2a;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: #600d2a;
+}
+
+.footer {
+  padding: 50px 0;
+  height: 200px;
+  background-color: #fdfaf3;
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.fadeIn.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fadeInStars {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.fadeInStars.visible {
+  opacity: 1;
+}
+
+.moveCard {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.moveCard.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.moveCard.hidden {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
