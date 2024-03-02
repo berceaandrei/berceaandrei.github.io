@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dcac552e.css",
+    "main.js": "/static/js/main.b72235d7.js",
+    "static/media/avatar.png": "/static/media/avatar.c1f73dbd495820f3d71a.png",
+    "static/media/background-darker2.jpg": "/static/media/background-darker2.c865c7311b1fba3c204b.jpg",
+    "static/media/babes.jpg": "/static/media/babes.167d9803606b89f8e3a9.jpg",
+    "static/media/background-darker3.jpg": "/static/media/background-darker3.32937c19e2997a07476e.jpg",
+    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/Cocogoose-numbers.ttf": "/static/media/Cocogoose-numbers.a923ff7a93f52bbabcd3.ttf",
+    "static/media/Cocogoose.ttf": "/static/media/Cocogoose.f0e9ee6119d8d2ec167f.ttf",
+    "static/media/MagicRetro.ttf": "/static/media/MagicRetro.83fd0b5584c39c084273.ttf",
+    "static/media/unirea.png": "/static/media/unirea.edf15e247f1dad7969a1.png",
+    "static/media/andi.jpg": "/static/media/andi.270e16129fc4c0c5522e.jpg",
+    "static/media/spotify.png": "/static/media/spotify.dc892a80394ba31bd21f.png",
+    "static/media/sparkle.png": "/static/media/sparkle.14d8b334428c0be293a8.png",
+    "index.html": "/index.html",
+    "main.dcac552e.css.map": "/static/css/main.dcac552e.css.map",
+    "main.b72235d7.js.map": "/static/js/main.b72235d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcac552e.css",
+    "static/js/main.b72235d7.js"
+  ]
+}
