@@ -65,4 +65,4 @@ Explore the different sections of the website to learn about my skills, work exp
 If you have any questions or feedback, feel free to reach out to me:
 
 - Email: berceamihaiandrei@gmail.com
-- LinkedIn: [Mihai Andrei Bercea]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/mihai-andrei-bercea-097409253/))
+- LinkedIn: [Mihai Andrei Bercea](https://www.linkedin.com/in/mihai-andrei-bercea-097409253/)
