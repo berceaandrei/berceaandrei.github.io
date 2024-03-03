@@ -86,7 +86,7 @@ const Home: React.FC = ({}) => {
   return (
     <Stack
       className={!isMobile ? "page1" : "page1nopic"}
-      style={{ height: "100%", width: "100%" }}
+      style={{ height: "100vh", width: "100%" }}
     >
       <Navigation
         textLink1="Home"
