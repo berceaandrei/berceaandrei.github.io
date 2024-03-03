@@ -28,12 +28,12 @@ My Portfolio Website is a showcase of my work, skills, and experiences as a web 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/berceaandrei/berceaandrei.github.io.git
    ```
    
 2. Navigate to the project directory:
    ```bash
-   cd portfolio-website
+   cd berceaandrei.github.io
    ```
 
 3. Install dependencies:
@@ -43,7 +43,7 @@ My Portfolio Website is a showcase of my work, skills, and experiences as a web 
 
 4. Start the development server:
    ```bash
-   npm install
+   npm start
    ```
    
 5. Open your browser and visit `http://localhost:3000` to view the website.
