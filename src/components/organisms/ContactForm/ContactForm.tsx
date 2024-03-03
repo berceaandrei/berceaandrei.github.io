@@ -92,9 +92,7 @@ const ContactForm = () => {
             marginTop: "10px",
             minHeight: "30px",
             fontFamily: "Inter-medium",
-            padding: "2px",
-            paddingRight: "7px",
-            paddingLeft: "7px",
+
             borderRadius: "10px",
             border: "2px solid #600d2a",
           }}
@@ -142,7 +140,7 @@ const ContactForm = () => {
             fontSize: isMobile ? "10px" : "20px",
             color: "#ffffff",
             borderRadius: "10px",
-            maxWidth: "80vw",
+            maxWidth: "81vw",
             fontFamily: "Cocogoose",
             border: 0,
           }}

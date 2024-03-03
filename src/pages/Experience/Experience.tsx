@@ -9,6 +9,7 @@ import "../../styles.css";
 import Timeline from "../../components/molecules/Timeline/Timeline";
 import Certification from "../../components/molecules/Certifications/Certifications";
 import Footer from "../../components/molecules/Footer/Footer";
+import diploma from "../../documents/diploma.pdf";
 
 const Experience: React.FC = ({}) => {
   const { isMobile, isTablet, isDesktop } = useBreakpoints();
@@ -239,7 +240,7 @@ const Experience: React.FC = ({}) => {
               <Certification
                 title=" Java Development certificate"
                 subtitle="Google Atelierul Digital"
-                link="https://learn.digitalstack.ro/mod/linkedincert/verify_certificate.php?code=TICAixW4ex"
+                link={diploma}
               ></Certification>
               <Certification
                 title="Baccalaureate Diploma"

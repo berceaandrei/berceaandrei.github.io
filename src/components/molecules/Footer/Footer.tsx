@@ -7,6 +7,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { Typography } from "@mui/material";
 import { PhoneModal } from "../PhoneModal";
 import { useBreakpoints } from "../../../hooks/useBreakpoints";
+import resume from "../../../documents/resume.pdf";
 
 const Footer = () => {
   const email = "berceamihaiandrei@gmail.com";
@@ -141,20 +142,21 @@ const Footer = () => {
           alignItems={isMobile || isTablet ? "center" : "start"}
           gap={"5px"}
         >
-          <CustomLink
-            path="/path/to/your/resume.pdf"
+          <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               color: "#600d2a",
               textDecoration: "underline",
               cursor: "pointer",
+              fontSize: isMobile ? "15px" : isTablet ? "17px" : "20px",
+              fontFamily: "Cocogoose-numbers",
+              fontWeight: "bolder",
             }}
-            fontSize={isMobile ? "15px" : isTablet ? "17px" : "20px"}
-            fontFamily="Cocogoose-numbers"
-            fontWeight="bolder"
-            isActive={false}
           >
             Resume
-          </CustomLink>
+          </a>
           <Typography
             style={{
               fontFamily: "Cocogoose-numbers",
