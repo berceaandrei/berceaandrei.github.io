@@ -27,6 +27,7 @@ const PhoneModal: React.FC<PhoneModalProps> = ({
           fontFamily: "Cocogoose",
           fontSize: "20px",
           fontWeight: "bolder",
+          color: "#000000",
         }}
       >
         Phone Number
@@ -37,6 +38,7 @@ const PhoneModal: React.FC<PhoneModalProps> = ({
             fontFamily: "Cocogoose-numbers",
             fontSize: "17px",
             fontWeight: "normal",
+            color: "#000000",
           }}
         >
           {phoneNumber}
